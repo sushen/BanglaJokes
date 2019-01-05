@@ -10,10 +10,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView mTitleWindow = (TextView) findViewById(R.id.titleWindow);
-        TextView mMessageWindow = (TextView) findViewById(R.id.messageWindow);
+        TextView mTitleWindow_1 = (TextView) findViewById(R.id.titleWindow_1);
+        TextView mMessageWindow_1 = (TextView) findViewById(R.id.messageWindow_1);
+        TextView mTitleWindow_2 = (TextView) findViewById(R.id.titleWindow_2);
+        TextView mMessageWindow_2 = (TextView) findViewById(R.id.messageWindow_2);
+        TextView mTitleWindow_3 = (TextView) findViewById(R.id.titleWindow_3);
+        TextView mMessageWindow_3 = (TextView) findViewById(R.id.messageWindow_3);
+        TextView mTitleWindow_4 = (TextView) findViewById(R.id.titleWindow_4);
+        TextView mMessageWindow_4 = (TextView) findViewById(R.id.messageWindow_4);
 
-        mTitleWindow.setText("নিজেই দাঁড়ানোর জায়গা পায় না আবার আরেকটারেও দাঁড় করাইয়া দিছে।");
+        mTitleWindow_1.setText("নিজেই দাঁড়ানোর জায়গা পায় না আবার আরেকটারেও দাঁড় করাইয়া দিছে।");
 
 //        StringBuilder stringBuilder = new StringBuilder();
 ////
@@ -22,7 +28,18 @@ public class MainActivity extends AppCompatActivity {
 ////                "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. ";
 ////
 ////        mMessageWindow.setText(stringBuilder.toString());
-        mMessageWindow.setText(" বাসে প্রচণ্ড ভিড় । এক মেয়ের পিছনে এক ছোকড়া দাঁড়িয়েছে। কিছুক্ষণ পর পিছন ফিরে মেয়ে ঠাস করে চড় মেরে বসল ছোকড়াকে! ফাজিল ! বারবার ধাক্কা খাইতাছে , নিজেই দাঁড়ানোর জায়গা পায় না আবার আরেকটারেও দাঁড় করাইয়া দিছে। ");
+        mMessageWindow_1.setText(" বাসে প্রচণ্ড ভিড় । এক মেয়ের পিছনে এক ছোকড়া দাঁড়িয়েছে। কিছুক্ষণ পর পিছন ফিরে মেয়ে ঠাস করে চড় মেরে বসল ছোকড়াকে! ফাজিল ! বারবার ধাক্কা খাইতাছে , নিজেই দাঁড়ানোর জায়গা পায় না আবার আরেকটারেও দাঁড় করাইয়া দিছে। ");
+
+
+        mTitleWindow_2.setText("নিজেই দাঁড়ানোর জায়গা পায় না আবার আরেকটারেও দাঁড় করাইয়া দিছে।");
+        mMessageWindow_2.setText(" বাসে প্রচণ্ড ভিড় । এক মেয়ের পিছনে এক ছোকড়া দাঁড়িয়েছে। কিছুক্ষণ পর পিছন ফিরে মেয়ে ঠাস করে চড় মেরে বসল ছোকড়াকে! ফাজিল ! বারবার ধাক্কা খাইতাছে , নিজেই দাঁড়ানোর জায়গা পায় না আবার আরেকটারেও দাঁড় করাইয়া দিছে। ");
+
+        mTitleWindow_3.setText("নিজেই দাঁড়ানোর জায়গা পায় না আবার আরেকটারেও দাঁড় করাইয়া দিছে।");
+        mMessageWindow_3.setText(" বাসে প্রচণ্ড ভিড় । এক মেয়ের পিছনে এক ছোকড়া দাঁড়িয়েছে। কিছুক্ষণ পর পিছন ফিরে মেয়ে ঠাস করে চড় মেরে বসল ছোকড়াকে! ফাজিল ! বারবার ধাক্কা খাইতাছে , নিজেই দাঁড়ানোর জায়গা পায় না আবার আরেকটারেও দাঁড় করাইয়া দিছে। ");
+
+        mTitleWindow_4.setText("নিজেই দাঁড়ানোর জায়গা পায় না আবার আরেকটারেও দাঁড় করাইয়া দিছে।");
+        mMessageWindow_4.setText(" বাসে প্রচণ্ড ভিড় । এক মেয়ের পিছনে এক ছোকড়া দাঁড়িয়েছে। কিছুক্ষণ পর পিছন ফিরে মেয়ে ঠাস করে চড় মেরে বসল ছোকড়াকে! ফাজিল ! বারবার ধাক্কা খাইতাছে , নিজেই দাঁড়ানোর জায়গা পায় না আবার আরেকটারেও দাঁড় করাইয়া দিছে। ");
+
 
     }
 }
